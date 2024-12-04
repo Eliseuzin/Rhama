@@ -1,0 +1,42 @@
+* {
+  margin: 0%;
+}
+
+body {
+  background-image: url("Imagem\ do\ WhatsApp\ de\ 2024-12-04\ à\(s\)\ 17.15.00_caaec8c3.jpg");
+  background-repeat: no-repeat;
+  /* background-size: cover; */
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+:root {
+  --cor1: rgb(175, 21, 21);
+  --cor2: rgb(18, 168, 31);
+  --cor3: rgb(20, 55, 207);
+  --cor4: rgb(206, 9, 130);
+  --cor5: rgb(218, 168, 6);
+  --cor5: rgba(7, 6, 6, 0.459);
+}
+header {
+  text-align: center;
+  font-size: 16px;
+  font-family: "Times New Roman", Times, serif;
+  background-image: linear-gradient(to left, var(--cor1), var(--cor2));
+}
+nav {
+  background-color: var(--cor3);
+  text-align: center;
+  padding: 15px;
+}
+nav a {
+  padding: 0px 15px;
+  text-decoration: none;
+  color: var(--cor4);
+}
+nav a:hover {
+  color: #ffffff90;
+}
+nav a:active {
+  color: var(--cor5);
+}
